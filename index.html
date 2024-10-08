@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Simple - Roblox Intro</title>
+  </head>
+
+  <body>
+    <!-- VIDEO -->
+    <video autoplay muted loop id="trailer">
+      <source src="/assets/video/trailer.mp4" type="video/mp4" />
+    </video>
+
+    <!-- LOGO & INTRO -->
+    <div class="intro">
+      <center>
+        <img
+          class="logo-roblox"
+          src="/assets/img/roblox.png"
+          alt=""
+          width="125"
+          height="125"
+        />
+        <p class="description-roblox">
+          ROBLOX adalah game yang dapat mengasah otak kiri dan otak kanan
+          playernya
+        </p>
+        <button id="btn2" onclick="toggleOff()">MUTE</button>
+        <button id="btn1" onclick="triggerBtn()">PAUSE</button>
+        <button id="btn3" onclick="toggleOn()">UNMUTE</button>
+      </center>
+    </div>
+
+    <script src="/javascript/main.js"></script>
+  </body>
+</html>
